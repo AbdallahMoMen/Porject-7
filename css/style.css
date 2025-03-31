@@ -1,0 +1,40 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* ========== Global Varabiles ========== */
+
+:root {
+  --main-color: #ff2c1f;
+  --text-color: #020307;
+}
+
+/* ========== Global Varabiles ========== */
+
+/* ========== Global Rules ========== */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ========== Global Rules ========== */
+
+/* ========== Custom FrameWork ========== */
+
+.resp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ========== Custom FrameWork ========== */
