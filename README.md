@@ -24,11 +24,11 @@
 
 ## Take A Look By Your Self >>>
 
-- (https://abdallahmomen.github.io/Project-6/)
+- (https://abdallahmomen.github.io/Project-7/)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/AbdallahMoMen/Project-7/blob/main/preview.png)
+![App Screenshot](https://github.com/AbdallahMoMen/Porject-7/blob/main/preview.png)
 
 ## Conclusion
 
