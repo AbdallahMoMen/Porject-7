@@ -16,9 +16,494 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- ========== Section ========== -->
+    <!-- ========== Header ========== -->
 
-    <!-- ========== Section ========== -->
+    <header class="sticky-top text-capitalize">
+      <div
+        class="container p-3 centered justify-content-between trans-04 position-relative rounded-3">
+        <div class="logo fs-1 centered">
+          <i class="fa-solid fa-clapperboard me-2"></i>
+          <a href="./index.html" class="fw-semibold trans-04">movies</a>
+        </div>
+        <div class="nav-btns position-relative d-lg-none">
+          <i
+            class="nav-open-btn fa-solid fa-bars fs-3 position-absolute top-50 start-50 trans-04"></i>
+          <i
+            class="nav-close-btn fa-solid fa-xmark fs-3 position-absolute top-50 start-50 trans-04"></i>
+        </div>
+        <nav class="d-none d-lg-block">
+          <ul class="d-flex align-items-center gap-3 fs-4">
+            <li class="position-relative active py-2">
+              <a href="#home" class="trans-04">home</a>
+            </li>
+            <li class="position-relative py-2">
+              <a href="#movies" class="trans-04">movies</a>
+            </li>
+            <li class="position-relative py-2">
+              <a href="#coming" class="trans-04">coming</a>
+            </li>
+            <li class="position-relative py-2">
+              <a href="#newsletter" class="trans-04">newsletter</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="main-btn fw-semibold trans-04">sign in</a>
+        <ul
+          class="dropdown-nav position-absolute w-100 top-100 start-0 rounded-bottom fw-semibold bg-white overflow-hidden">
+          <li class="active py-2">
+            <a
+              href="#home"
+              class="text-dark position-relative px-3 py-2 trans-04"
+              >home</a
+            >
+          </li>
+          <li class="py-2">
+            <a
+              href="#movies"
+              class="text-dark position-relative px-3 py-2 trans-04"
+              >movies</a
+            >
+          </li>
+          <li class="py-2">
+            <a
+              href="#coming"
+              class="text-dark position-relative px-3 py-2 trans-04"
+              >coming</a
+            >
+          </li>
+          <li class="py-2">
+            <a
+              href="#newsletter"
+              class="text-dark position-relative px-3 py-2 trans-04"
+              >newsletter</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ========== Header ========== -->
+
+    <!-- ========== Home Section ========== -->
+
+    <section class="home" id="home">
+      <div
+        class="swiper position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-container w-100 h-100 position-relative">
+              <img src="./images/home1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="container text-light position-absolute top-50 start-50 z-2">
+              <p class="text-uppercase fs-5 mb-2">marvel universe</p>
+              <h2 class="text-capitalize mb-4 fw-bolder">
+                venom:<br />
+                let there be carnage
+              </h2>
+              <a href="#" class="main-btn fw-semibold text-capitalize trans-04"
+                >book now</a
+              >
+              <a href="#" class="icon-container mt-5">
+                <i
+                  class="fa-solid fa-play rounded-circle centered trans-04"></i>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-container w-100 h-100 position-relative">
+              <img src="./images/home2.jpg" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="container text-light position-absolute top-50 start-50 z-2">
+              <p class="text-uppercase fs-5 mb-2">marvel universe</p>
+              <h2 class="text-capitalize mb-4 fw-bolder">
+                avengers:<br />infinit war
+              </h2>
+              <a href="#" class="main-btn fw-semibold text-capitalize trans-04"
+                >book now</a
+              >
+              <a href="#" class="icon-container mt-5">
+                <i
+                  class="fa-solid fa-play rounded-circle centered trans-04"></i>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-container w-100 h-100 position-relative">
+              <img src="./images/home3.jpg" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="container text-light position-absolute top-50 start-50 z-2">
+              <p class="text-uppercase fs-5 mb-2">marvel universe</p>
+              <h2 class="text-capitalize mb-4 fw-bolder">
+                spider-man:<br />
+                far from home
+              </h2>
+              <a href="#" class="main-btn fw-semibold text-capitalize trans-04"
+                >book now</a
+              >
+              <a href="#" class="icon-container mt-5">
+                <i
+                  class="fa-solid fa-play rounded-circle centered trans-04"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- ========== Home Section ========== -->
+
+    <!-- ========== Movies Section ========== -->
+
+    <section class="movies pt-5" id="movies">
+      <div class="container text-light">
+        <h2 class="text-uppercase fw-light py-3 mb-5 border-bottom border-2">
+          opening this week
+        </h2>
+        <div class="movies-container resp-grid gap-3">
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m1.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">venom</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >120 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">action</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m2.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">dunkirk</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >126 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">adventure</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m3.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">batman vs superman</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >4 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">thriller</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m4.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">john wick 2</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >186 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">action</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m5.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">aquaman</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >160 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">fiction</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m6.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">black panther</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >136 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">action</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m7.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">thor</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >192 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">adventure</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m8.png" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">bumble bee</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >142 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">action</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m9.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">mortal engines</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >120 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">adventure</span>
+            </div>
+          </div>
+          <div class="movie text-capitalize rounded overflow-hidden">
+            <img src="./images/m10.jpg" alt="" class="img-fluid trans-04" />
+            <div class="movie-info p-3">
+              <p class="movie-title fs-4 fw-light">underworld blood wars</p>
+              <span class="movie-time fw-semibold pe-3 border-end border-2"
+                >155 min</span
+              >
+              <span class="movie-time fw-semibold ps-3">action</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Movies Section ========== -->
+
+    <!-- ========== Coming Soon Section ========== -->
+
+    <section class="coming pt-5" id="coming">
+      <div class="container text-light">
+        <h2 class="text-uppercase fw-light py-3 mb-5 border-bottom border-2">
+          opening this week
+        </h2>
+        <div class="movies-container overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming1.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">johnny english</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >120 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">action</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming2.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">warcraft</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >180 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">strategy</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming3.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">rampage</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >130 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">adventure</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming4.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">iron lady</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >136 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">Story</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming5.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">justice league</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >155 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">action</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming6.jpeg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">doctor strange</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >160 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">adventure</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming7.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">captain marvel</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >160 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">adventure</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming8.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">blackwindow</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >150 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">action</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming9.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">ant-man</p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >145 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">adventure</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="movie text-capitalize rounded overflow-hidden">
+                <img
+                  src="./images/coming10.jpg"
+                  alt=""
+                  class="img-fluid trans-04" />
+                <div class="movie-info p-3">
+                  <p class="movie-title fs-4 fw-light">
+                    gurdians of the galaxy
+                  </p>
+                  <span class="movie-time fw-semibold pe-3 border-end border-2"
+                    >182 min</span
+                  >
+                  <span class="movie-time fw-semibold ps-3">action</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Coming Soon Section ========== -->
+
+    <!-- ========== Newsletter Section ========== -->
+
+    <section class="newsletter pt-5" id="newsletter">
+      <div class="container p-3 text-light text-center">
+        <h2 class="text-capitalize mb-5 fw-semibold fs-1">
+          subscribe to get newsletter
+        </h2>
+        <form action="" class="position-relative">
+          <input
+            type="email"
+            name="mail"
+            id=""
+            placeholder="Your Email"
+            class="rounded p-3 border-0 w-100"
+            required />
+          <button
+            type="submit"
+            class="main-btn border-0 py-2 px-3 text-capitalize position-absolute top-50">
+            subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== Newsletter Section ========== -->
+
+    <!-- ========== Footer Section ========== -->
+
+    <footer class="pt-5">
+      <div
+        class="container d-flex align-items-center justify-content-center flex-wrap gap-3 justify-content-sm-between p-3">
+        <div class="logo fs-1 text-capitalize">
+          <i class="fa-solid fa-clapperboard me-1"></i>
+          <a href="./index.html" class="fw-semibold text-light">movies</a>
+        </div>
+        <div class="social d-flex column-gap-3">
+          <a href="#">
+            <i
+              class="fa-brands fa-facebook-f fs-3 centered rounded-circle trans-04"></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands fa-twitter fs-3 centered rounded-circle trans-04"></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands fa-instagram fs-3 centered rounded-circle trans-04"></i>
+          </a>
+          <a href="#">
+            <i
+              class="fa-brands fa-tiktok fs-3 centered rounded-circle trans-04"></i>
+          </a>
+        </div>
+      </div>
+      <p class="text-center text-capitalize text-light-50 py-3 fs-5 fw-light">
+        &copy; abdallah moMen all right reserved.
+      </p>
+    </footer>
+
+    <!-- ========== Footer Section ========== -->
+
+    <!-- ========== Go Up Button ========== -->
+    <button class="goup centered position-fixed border-0 rounded-circle">
+      <i class="fa-solid fa-arrow-up fs-4"></i>
+    </button>
+    <!-- ========== Go Up Button ========== -->
 
     <!-- BootStrap 5 Library -->
     <script src="./js/bootstrap.bundle.min.js"></script>
