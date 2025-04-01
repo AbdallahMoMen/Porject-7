@@ -28,7 +28,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://github.com/AbdallahMoMen/Project-6/blob/main/preview.png)
+![App Screenshot](https://github.com/AbdallahMoMen/Project-7/blob/main/preview.png)
 
 ## Conclusion
 
